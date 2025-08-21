@@ -17,8 +17,12 @@ To complete the exercises in this repository, please make sure that you meet the
 
 ## Exercises
 
+### Exercise 0 - Preparation Steps
+
 - [Exercice 0.1 - Getting Started](exercises/ex0#Getting-Started)
-- [Exercice 0.2 - Create a Copy of This Repository](exercises/ex0#Exercice-0.2---Create-a-Copy-of-This-Repository)
+- [Exercice 0.2 - (Optional) Create a GitHub account](exercises/ex0#Exercice-0.2---(Optional)-Create-a-GitHub-account)
+- [Exercice 0.3 - Create a Copy of This Repository](exercises/ex0#Exercice-0.3---Create-a-Copy-of-This-Repository)
+- [Exercice 0.4 - Login to your BTP subaccount](exercises/ex0#Exercice-0.4---Login-to-your-BTP-subaccount)
 
 #### Exercise 1 - Set up your Delivery Pipeline and Transport Landscape
 - [Exercise 1.1 - Add Your Repository in SAP CI CD Service](exercises/ex1#Exercise-1.1---Add-Your-Repository-in-SAP-CI-CD-Service)
