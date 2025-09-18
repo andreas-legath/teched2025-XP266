@@ -65,7 +65,7 @@ In this exercise, we will manage the assignment and deployment of Cloud Transpor
 
 ## Exercise 6.2 - Find and access the deployed applications
 
-1. Before confirming the Feature deployment to production you can check your deployed applications in the production environment. In your BTP subaccount named with XP266_PROD0XX in the SAP BTP cockpit, go to Cloud Foundry Environment and select the **dev** space. 
+1. Before confirming the Feature deployment to production you can check your deployed applications in the production environment. In your BTP subaccount named with XP266_PROD0XX in the SAP BTP cockpit, go to Cloud Foundry Environment and select the **dev** space.
 
     <br>![alt text](../ex6/images/dev_space.png)
 2. In the application list click on **bookshop-srv**.
@@ -79,14 +79,14 @@ In this exercise, we will manage the assignment and deployment of Cloud Transpor
     br>![alt text](../ex6/images/verify_book_entries.png)
 5. Now verify the same for your Mobile Services app.
 
-6. After validating the correctness you can confirm the your Feature in SAP CLoud ALM by clicking "Confirm Deployment".
+6. After validating the correctness you can confirm your Feature in SAP CLoud ALM by clicking "Confirm Deployment".
 
     <br>![alt text](../ex6/images/confirm_deployment.png)
-4. The status "Deployed" is the final state of the Feature. It cannot be changed anymore.
+7. The status "Deployed" is the final state of the Feature. It cannot be changed anymore.
 
     <br>![alt text](../ex6/images/status_deployed.png)
 
 ## Summary
-In this exercise you have learned how to deploy changes via Feature in SAP Cloud ALM through your landscape. In addition you were able to keep track by using the Feature Traceability and confirm the correct function in Production. 
+In this exercise you have learned how to deploy changes via Feature in SAP Cloud ALM through your landscape. In addition, you were able to keep track by using the Feature Traceability and confirm the correct function in Production.
 
 Congratulations! You have successfully completed the hands-on session!

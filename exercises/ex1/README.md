@@ -1,6 +1,6 @@
 ## Exercise 1 - Setup your Delivery Pipeline and Transport Landscape
 
-In this exercise, you will define your delivery pipeline in SAP Continuous Integration nand Delivery service, createa job and configure the release step and transport landscape in SAP Cloud Transport Management Service.
+In this exercise, you will define your delivery pipeline in SAP Continuous Integration and Delivery service, create a job and configure the release step and transport landscape in SAP Cloud Transport Management Service.
 
 # Exercise 1.1 - Open the Continuous Integration and Delivery Service
 
@@ -23,7 +23,7 @@ Connect SAP Continuous Integration and Delivery with the repository in which you
 3. Paste it into the Clone URL field in the Add Repository column view.
     <br>![](../ex1/images/add_repo_view.png)
 
-4. Don't close the repos creation yet. In the next step we will add a GitHub webhook
+4. Don't close the repo-creation yet. In the next step we will add a GitHub webhook
 
 ## Exercise 1.1 - Create a Webhook
 
@@ -32,10 +32,10 @@ You can configure a webhook for your repository, which automatically triggers a 
 1. In the same view, click the button to create a new webhook credential.
     <br>![](../ex1/images/add_webhook.png)
 
-2. In the new popup, click the **+** button to create a new webook credential.
+2. In the new popup, click the **+** button to create a new webhook credential.
     <br>![](../ex1/images/create_webhook_credential.png)
 
-3. Another Create Credential popup opens. Here choose a neme e.g. `webhook_credential`.
+3. Another Create Credential popup opens. Here, choose a name e.g. `webhook_credential`.
 4. Generate a secret by clicking the **Generate** button.
 5. **Copy** and note down this secret, you will need it in GitHub and click the **create** button.
     <br>![](../ex1/images/create_credential.png)
@@ -67,7 +67,7 @@ You can configure a webhook for your repository, which automatically triggers a 
   
     <br>![](/exercises/ex1/images/create_job.png)
 
-3. In the Build section, Keep mta as Build Tool and choose `Java 21 Node 22` as Build Tool Version.
+3. In the Build section, Keep MTA as Build Tool and choose `Java 21 Node 22` as Build Tool Version.
     <br>![](/exercises/ex1/images/job_build_stage.png)
 
 ## Exercise 1.3 - Enable the Release Stage
@@ -75,14 +75,14 @@ You can configure a webhook for your repository, which automatically triggers a 
 To enable the **Release** stage in your SAP Continuous Integration and Delivery job, you need the name of the node for the upload to SAP Cloud Transport Management as well as a service key to authenticate your pipeline against it. We will provide these values to you.
 
 1. In the **Release** stage in your job details, switch on **Cloud Transport Management** using the toggle.
-2. Change the drop down to `Export from` and enter `DEV` for the name of the initial transport node that we will create in Exervice 1.4 in SAP Cloud Transport Management Service.
+2. Change the drop-down to `Export from` and enter `DEV` for the name of the initial transport node that we will create in Exercise 1.4 in SAP Cloud Transport Management Service.
 3. To add a **Service Key**, click on the value help button. As a result, the **Select Credentials** window pops up. Then click the plus button which opens the **Create Credential** popup.
     <br>![](/exercises/ex1/images/job_release_stage.png)
 
-4. In another browser window, open the SAP BTP cockpit and navigate to the **XP266_CENTRAL** subaccount in which the SAP Cloud Transport Management instance is availe.
+4. In another browser window, open the SAP BTP cockpit and navigate to the **XP266_CENTRAL** subaccount in which the SAP Cloud Transport Management instance is available.
 5. From the navigation area, choose **Services** → **Instances and Subscriptions**.
 6. From the **Instances** area, find the **Service Key** named **XP266CTS** of Service Cloud Transport Management.
-7. Here, in the credentials column click they *1 key* that has been created already and choose **Copy JSON** to copy the entire service key.
+7. Here, in the **credentials** column click they *1 key* that has been created already and choose **Copy JSON** to copy the entire service key.
 8. Back in SAP Continuous Integration and Delivery, paste the copied service key into the **Service Key** text box of the **Create Credentials** pop-up window.
     <br>![](/exercises/ex1/images/credential_add_ctms_key.png)
 
@@ -90,7 +90,7 @@ To enable the **Release** stage in your SAP Continuous Integration and Delivery 
 
 10. Click on **Create**. 
 
-You've successfully created your first CI/CD job with the Build stage and release enabled. Changes commited to your Github reposstiroy will be automatically picked up by your delivery pipeline. Howeveer, before transport request is received by _SAP Cloud Transport Mangement service_, you need to create your transport landscape in the following exercise.
+You've successfully created your first CI/CD job with the Build stage and release enabled. Changes committed to your GitHub repository will be automatically picked up by your delivery pipeline. However, before transport request is received by _SAP Cloud Transport Management service_, you need to create your transport landscape in the following exercise.
 
 ## Exercise 1.4 - Create Transport Landscape in SAP Cloud Transport Management Service
 
@@ -101,7 +101,7 @@ You've successfully created your first CI/CD job with the Build stage and releas
 
 3. The overview page of **SAP Cloud Transport Management** where you navigate to **Landscape visualization**
 
-4. You will now create a new transport landscape. This containts the creation of 3 transport nodes (DEV, QA and PRD) and 2 transport nodes.
+4. You will now create a new transport landscape. This contains the creation of 3 transport nodes (DEV, QA and PRD) and 2 transport nodes.
 
 5. Click the **+** sign to create your DEV node
    <br>![](/exercises/ex1/images/ctms_create_node.png)
@@ -149,6 +149,6 @@ Congratulations! You should now see the entire landscape transport in **Landscap
 
 You've now set up SAP Continuous Integration and Delivery, added your GitHub repository to the service, configured a webhook, and created your first CI/CD job.
 
-You also created your first transport landscape. At this point, you have everything setup to start a feature definintion and development.
+You also created your first transport landscape. At this point, you have everything setup to start a feature definition and development.
 
 Continue to - [Maintain your Feature in Cloud ALM](../ex2/README.md)

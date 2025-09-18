@@ -1,22 +1,22 @@
 # Develop your pro-code application
 
-In this exercise, we will create create a new development project in SAP Build based on the Git Repository created in [Exercise 0](../ex0#exercicse-01---create-a-copy-of-this-repository). We will add small code change relase the changes to our Git Repository.
+In this exercise, we will create a new development project in SAP Build based on the Git Repository created in [Exercise 0](../ex0#exercicse-01---create-a-copy-of-this-repository). We will add small code change release the changes to our Git Repository.
 
 ## Exercise 3.0 - Create a new Development Project in SAP Build
 
-1. In SAP BTP cockpit, navigate to your developlment btp subaccount named `XP266_DEV`. 
+1. In SAP BTP cockpit, navigate to your development SAP BTP subaccount named `XP266_DEV`. 
 2. Go to **Services** > **Instances and Subscription** and open **SAP Build Code** in the Subscriptions area.
        <br>![](../ex3/images/btp_buildcode.png)
-3. The SAP Build Lobby will open. To establish a new devlopment project, click on **Create** > **Clone from Git**.
+3. The SAP Build Lobby will open. To establish a new development project, click on **Create** > **Clone from Git**.
         <br>![](../ex3/images/buildcode_lobby.png)
 4. In Create project popup, choose **SAP Fiori Application** and confirm with **Next**.
         <br>![](../ex3/images/buildcode_createproject_type.png)
-5. Since this project is based on the Git repository copied in [Exercise 0](../ex0#exercicse-01---create-a-copy-of-this-repository), provide the corresponding repostitory URL, which can be retrieved from Git.
+5. Since this project is based on the Git repository copied in [Exercise 0](../ex0#exercicse-01---create-a-copy-of-this-repository), provide the corresponding repository URL, which can be retrieved from Git.
         <br>![](../ex3/images/git_copyurl.png)
 6. Enter a name e.g. **Teched-Development-Project** and optionally a description. 
 7. Confirm with **Review** and **Create**.
         <br>![](../ex3/images/buildcode_createproject_name.png)
-8. The **Business Applicaiton Studio** will open in a new browser tab, preapring your development enviromnent.
+8. The **Business Applicaiton Studio** will open in a new browser tab, preparing your development environment.
 
 ## Exercise 3.1 - Add addtional sample data to your Application and push your changes to GitHub
 
@@ -33,7 +33,7 @@ Now that your development project has been added to Business Application, you ca
 
 ## Exercise 3.2 - Release your Changes to GitHub
 
-Now that we have added some changes, the next steps will be to release them to our gir repository
+Now that we have added some changes, the next steps will be to release them to our Git repository
 
 1. In Business Application Studio, open the **Source Control** on the side panel, which has now one pending change.
         <br>![](../ex3/images/bas_sidebar.png)
@@ -50,6 +50,6 @@ Now that we have added some changes, the next steps will be to release them to o
 
 ## Summary
 
-You've now create your first development project in SAP Build, established code changes and released them to Git.
+You've now created your first development project in SAP Build, established code changes and released them to Git.
 
-Continue to - [Transport your low-code application](../ex4/README.md)
+Continue to - [Transport your low-code application](../ex4/README.md).

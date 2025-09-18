@@ -2,7 +2,7 @@
 
 In this exercise, you will create your own copy of this repository and optionally, set up a GitHub account.
 
-Finally you will login to for this session prepared BTP account.
+At the end, you will access the SAP BTP cockpit and SAP BTP accounts that have been prepared for this session.
 
 ## Exercise 0.0 - (Optional) Create a GitHub account
 
@@ -10,7 +10,7 @@ Finally you will login to for this session prepared BTP account.
 
 2. Click **Sign up for GiHhub**.
 
-3. Alternatevly, click on **Continue with Google** to sign up using social login.
+3. Alternatively, click on **Continue with Google** to sign up using social login.
 
 4. Follow the prompts to create your personal account.
 
@@ -39,10 +39,10 @@ Finally you will login to for this session prepared BTP account.
 | Account Name              | Type        |                                                                                                                                Description |
 | :------------------------ | :---------: | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | XP266_CALM                |  Shared     | This BTP subaccount includes are instance of SAP Cloud ALM, which will be shared by all participants of this hands-on session.             |
-| XP266_CENTRAL             |  Deticated  | The BTP subaccount named **CENTRAL** contains central services and acts as an central administrative subaccount.                           |
-| XP266_DEV                 |  Deticated  | In this BTP subaccount **DEV** development is done. It contains instances of SAP Build, SAP Content Agent services and SAP Mobile Services.|
-| XP266_QA                  |  Deticated  | **QA** is one of the target BTP subaccounts where transport requests will be deployed to during this session.                              |
-| XP266_PROD                |  Deticated  | **PROD** is one of the target BTP subaccounts where transport requests will be deployed to during this session.                            |
+| XP266_CENTRAL             |  Dedicated  | The BTP subaccount named **CENTRAL** contains central services and acts as a central administrative subaccount.                           |
+| XP266_DEV                 |  Dedicated  | In this BTP subaccount **DEV** development is done. It contains instances of SAP Build, SAP Content Agent services and SAP Mobile Services.|
+| XP266_QA                  |  Dedicated  | **QA** is one of the target SAP BTP subaccount where transport requests will be deployed to during this session.                              |
+| XP266_PROD                |  Dedicated  | **PROD** is one of the target SAP BTP subaccount where transport requests will be deployed to during this session.                            |
 
 ## Summary
 
@@ -50,6 +50,6 @@ Now that you have everything you need to successfully go through this TechEd ses
 
 - A GitHub account.
 - Your own fork of the session's GitHub repository.
-- A BTP global account with prepared subaccounts.
+- A BTP global account with prepared SAP BTP subaccounts.
 
 Continue to [Set up your Delivery Pipeline and Transport Landscape](../ex1/README.md)

@@ -1,6 +1,6 @@
 # Exercise 2 - Maintain your Feature in Cloud ALM
 
-In this exercise, we will check whether the integration between SAP Cloud ALM and SAP Cloud Transport Managemeent service has been established properly. This will enable the usage of Features in SAP Cloud ALM to transport changes throghout your landscape. The creation of the Feature will be part of the exercise.
+In this exercise, we will check whether the integration between SAP Cloud ALM and SAP Cloud Transport Management service has been established properly. This will enable the usage of Features in SAP Cloud ALM to transport changes throughout your landscape. The creation of the Feature will be part of the exercise.
 
 ## Exercise 2.0 - Check your Cloud ALM and cTMS integration
 
@@ -42,7 +42,7 @@ In this exercise, we will check whether the integration between SAP Cloud ALM an
 8. Click the button **"Start Implementation"** to switch the Feature to status "In Implementation".
 
     <br>![alt text](images/start_implementation.png)
-9. Your Feature in status "In Implementation" shows up in the Features Overview list on the left hand side.
+9. Your Feature in status "In Implementation" shows up in the Features Overview list on the left-hand side.
 
     <br>![alt text](images/feature_in_overview.png)
 
@@ -50,6 +50,6 @@ Congratulations, you have created your Feature!
 
 ## Summary
 
-In this exercise you've verified that the integration between SAP Cloud ALM and SAP Cloud Transport Management has been established through SAP BTP detsintaion properly. The Feature for later usage in the deployment process is available in status "In Implementation".
+In this exercise you've verified that the integration between SAP Cloud ALM and SAP Cloud Transport Management has been established through SAP BTP destination properly. The Feature for later usage in the deployment process is available in status "In Implementation".
 
 Continue to - [Develop your pro-code application](../ex3/README.md)
