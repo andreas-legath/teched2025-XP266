@@ -1,4 +1,4 @@
-# Transport your pro-code application
+# Create a Transport of your pro-code Application
 
 In this exercise, we will create a new development project in SAP Build based on the Git Repository created in [Exercise 0](../ex0#exercicse-01---create-a-copy-of-this-repository). We will add small code change release the changes to our Git Repository.
 
@@ -51,6 +51,11 @@ Now that we have added some changes, the next steps will be to release them to o
 
 ## Summary
 
-You've now created your first development project in SAP Build, established code changes and released them to Git.
+You have now created your first development project in SAP Build, made code changes, and released them to Git. This release triggered your CI/CD pipeline and created a new transport request.
 
-Continue to - [Transport your low-code application (Optional)](../ex4/README.md) or skip this part and continue to - [Verify all Release Steps](../ex5/README.md)
+Next, you can either:
+
+- Create an additional transport request from an SAP Mobile Services low-code application, or
+- Proceed to verify the transport request that was just created.
+
+Continue to - [Transport your low-code application (Optional)](../ex4/README.md) or skip the optional exercise and continue to - [Verify all Release Steps](../ex5/README.md)

@@ -45,12 +45,12 @@ To complete the exercises in this repository, please make sure that you meet the
   * [Exercise 2.0 - Check your Cloud ALM and cTMS configuration](exercises/ex2#exercise-20---check-your-cloud-alm-and-ctms-configuration)
   * [Exercice 2.1 - Create a new Feature](exercises/ex2#exercise-21---create-a-new-feature)
 
-* #### [Exercise 3 - Transport your pro-code application](exercises/ex3#transport-your-pro-code-application)
+* #### [Exercise 3 - Create a Transport of your pro-code Application](exercises/ex3#create-a-transport-of-your-pro-code-application)
   * [Exercise 3.0 - Create a new Development Project in SAP Build](exercises/ex3#exercise-30---create-a-new-development-project-in-sap-build)
   * [Exercise 3.1 - Add additional sample data to your application](exercises/ex3#exercise-31---add-additional-sample-data-to-your-application)
   * [Exercise 3.2 - Release your Changes to GitHub](exercises/ex3#exercise-32---release-your-changes-to-github)
 
-* #### [Exercise 4 - Transport your low-code application (Optional)](exercises/ex4#transport-your-low-code-application-optional)
+* #### [Exercise 4 - Create a Transport of your low-code Application (Optional)](exercises/ex4#create-a-transport-of-your-low-code-application-optional)
   * [Exercise 4.0 - Create a new SAP Build Mobile Project in SAP Build](exercises/ex4#exercise-40---create-a-ne-sap-build-mobile-project-in-sap-build)
   * [Exercise 4.1 - Access Mobile Services and add a new Feature](exercises/ex4#exercise-41---access-mobile-services-and-add-a-new-feature)
   * [Exercise 4.2 - Setup SAP Content Agent Service](exercises/ex4#exercise-42---setup-sap-content-agent-service)

@@ -1,4 +1,4 @@
-# Transport your low-code application (Optional)
+# Create a Transport of your low-code application (Optional)
 
 In this optional exercise, you will create a new transport request using **SAP Content Agent Service** and **SAP Build** together with **SAP Mobile Services**.
 
@@ -74,6 +74,6 @@ In SAP Content Agent Service, you will now prepare a transport request containin
 
 You've now created a transport request via SAP Content Agent Service by bundling low-code development content provided by SAP Build and SAP Mobile Services.
 
-In the next exercise you will verify the creation for two transport requests. One that has been created in this exercise 3 and one that has been created in the previous exercise 4.
+In the next exercise you will verify the creation for two transport requests. One that has been created in the previous exercise 3 and one that has been created in this exercise 4.
 
 Continue to - [Verify all Release Steps](../ex5/README.md)
